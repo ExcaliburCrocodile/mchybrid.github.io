@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McHybrids Shack</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: #1a1a1a;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            color: #0ff;
+            text-shadow: 0 0 10px #0ff;
+        }
+        .futuristic-button {
+            background: #0ff;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1.2em;
+            color: #1a1a1a;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 0 15px #0ff;
+        }
+        .futuristic-button:hover {
+            background: #00a3a3;
+            transform: scale(1.1);
+            box-shadow: 0 0 25px #00a3a3;
+        }
+        .futuristic-search-bar {
+            position: relative;
+            width: 300px;
+        }
+        .futuristic-search-bar input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #0ff;
+            border-radius: 25px;
+            background: transparent;
+            color: #fff;
+            font-size: 1.2em;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+        .futuristic-search-bar input::placeholder {
+            color: #aaa;
+        }
+        .futuristic-search-bar input:focus {
+            border-color: #00a3a3;
+            box-shadow: 0 0 15px #00a3a3;
+        }
+    </style>
+</head>
+<body>
+    <h1>McHybrids Shack</h1>
+    <button class="futuristic-button">Button 1</button>
+    <button class="futuristic-button">Button 2</button>
+    <button class="futuristic-button">Button 3</button>
+    <div class="futuristic-search-bar">
+        <input type="text" placeholder="Search...">
+    </div>
+</body>
+</html>
